@@ -57,7 +57,7 @@ public class Eagle extends Bird implements Fly{
             this.flying = false;
             System.out.println(this.getName() + " atterrit sur le sol.");
         } else {
-            System.out.println(this.getName() + " est trop haut, il ne peut pas atterrir.");
+            System.out.println(this.getName() + " est trop haut, il ne peut pas atterrir !");
         }
     }
 }
